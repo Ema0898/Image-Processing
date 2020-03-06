@@ -11,7 +11,7 @@ for k = range
     a = imread(['VIDEO/VIDEO_0' num2str(k) '.jpg']);
    end
    
-   %a = imread([string num2str(k) '.jpg'])
+   a = imread([string num2str(k) '.jpg'])
    imshow(a);
    
    pause(0.5);
